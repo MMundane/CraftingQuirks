@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.maintainmundane.cquirks.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "CraftingResultSlotMixin",
+    "CraftingScreenHandlerMixin",
+    "FovMixin",
+    "ItemMixin",
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "PlayerEntityMixin",
+    "ReplenishingMixin",
+    "SharpMixin",
+    "SpeedMixin",
+    "UnbreakableMixin",
+    "ZenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
